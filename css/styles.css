@@ -43,6 +43,8 @@ body{
 
 .inside-logo{
     color: #2e2f42;
+    display: flex;
+    align-items: center;
 }
 
 .header{
@@ -63,7 +65,6 @@ body{
 .list{
     list-style: none;
     display: flex;
-   gap: 40px;
 }
 
 .link-style{
@@ -74,6 +75,7 @@ body{
     color: #2e2f42;
     display: flex;
     padding: 24px 0;
+    margin-right: 40px;
     /* text-decoration: none; */
 }
 
@@ -114,7 +116,7 @@ body{
 
 .first-section{
     background-color: var(--navy-blue);
-    padding: 0 188px;
+    padding: 188px 0;
 }
 
 .section-title{
@@ -153,26 +155,40 @@ body{
 
 /* section 2 class */
 
+.second-section{
+    padding: 120px 0;
+}
+
+.listarea{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
 .section-two-headers{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 120px 0;
     margin-bottom: 8px;
 }
 
-.visually-hidden{
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
-}
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    outline: 0;
+    outline-offset: 0;
+  }
 
 .section-two-paragraphs{
     font-size: 16px;
@@ -192,12 +208,16 @@ body{
 }
 
 .list{
-   margin-right: 24px;
-    width: calc((100% - 72px) / 4);
+   /* margin-right: 24px; */
+   width: calc((100% - 72px) / 4);
     
 }
 
 /* section 3 class */
+
+.third-section{
+    padding: 120px;
+}
 
 .third-headers{
     font-size: 36px;
@@ -208,7 +228,6 @@ body{
     color: #2e2f42;
     padding-bottom: 120px;
     margin-bottom: 72px;
-    margin-right: 24px;
 }
 
 .third-headers-items{
@@ -219,6 +238,7 @@ body{
 
 .fourth-section{
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .fourth-section-header{
@@ -242,6 +262,7 @@ body{
     background-color: #ffffff;
     width: calc((100% - 72px) / 4); 
     border-radius: 0px 0px 4px 4px;
+    gap: 24px;
 }
 
 .employees-name{
@@ -291,6 +312,8 @@ body{
 
 li{
    list-style: none;
+   display: flex;
+   gap: 40px;
 }
 
 /* .porfolio-link{
