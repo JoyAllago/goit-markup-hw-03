@@ -62,7 +62,7 @@ body{
 .list{
     list-style: none;
     display: flex;
-    margin-right: 40px;
+   gap: 40px;
 }
 
 .link-style{
