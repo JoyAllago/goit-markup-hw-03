@@ -59,7 +59,7 @@ body{
 
 .headercon{
     display: flex;
-    align-items: flex;
+    justify-content: space-between;
 }
 
 .list{
