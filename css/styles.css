@@ -94,8 +94,8 @@ body{
    
 }
   
-.nav,
-.addrees{
+.logo,
+.addrees-style{
     display: flex;
     align-items: center;
 }
