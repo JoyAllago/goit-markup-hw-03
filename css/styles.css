@@ -64,6 +64,7 @@ body{
 
 .list{
     list-style: none;
+    gap: 40px;
     display: flex;
 }
 
@@ -94,6 +95,11 @@ body{
    
 }
   
+.nav,
+.addrees{
+    display: flex;
+    align-items: center;
+}
 
 /* logo */
 
