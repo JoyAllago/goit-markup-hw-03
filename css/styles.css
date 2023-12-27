@@ -50,7 +50,7 @@ body{
     border-bottom: 1px solid #e7e9fc;
 }
 
-.container{
+.section-container{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -349,6 +349,7 @@ li{
     padding-top: 96px;
     padding-bottom: 120px;
 }
+
 
 
 .portfolio-services{
