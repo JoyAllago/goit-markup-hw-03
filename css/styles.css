@@ -310,7 +310,8 @@ body{
 .filter-button:focus{
     color: var(--white);
     background-color: var(--ocean);
-    border: 1px solid #e7e9fc;
+    border: 1px solid transparent;
+    
 
     
 }
