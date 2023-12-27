@@ -304,13 +304,13 @@ body{
     border: 1px solid #e7e9fc;
     border-radius: 4px;
     padding: 12px 24px;
-    border: 1px solid #e7e9fc;
 }
 
 .filter-button:hover,
 .filter-button:focus{
     color: var(--white);
     background-color: var(--ocean);
+    
     
 }
 
