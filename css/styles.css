@@ -303,6 +303,8 @@ body{
     cursor: pointer;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
 }
 
 .filter-button:hover,
@@ -337,6 +339,8 @@ li{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-bottom: 8px;
+    text-align: left;
     /* text-transform: lowercase;
     text-decoration: none; */
 }
@@ -352,6 +356,7 @@ li{
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-color{
@@ -369,6 +374,7 @@ li{
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    display: flex;
 }
 
 /* footer style */
