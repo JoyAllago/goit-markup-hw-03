@@ -50,7 +50,12 @@ body{
     border-bottom: 1px solid #e7e9fc;
 }
 
-
+.container{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* display: flex; */
+}
 
 .headercon{
     display: flex;
@@ -345,12 +350,6 @@ li{
     padding-bottom: 120px;
 }
 
-.portfolio-container{
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    /* display: flex; */
-}
 
 .portfolio-services{
     font-weight: 500;
@@ -374,7 +373,6 @@ li{
 }
 
 .list-portfolio{
-    display: flex;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 24px;
