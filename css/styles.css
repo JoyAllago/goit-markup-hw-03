@@ -374,6 +374,7 @@ li{
 }
 
 .list-portfolio{
+    display: flex;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 24px;
