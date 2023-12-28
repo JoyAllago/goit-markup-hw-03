@@ -428,9 +428,12 @@ li{
 }
 
 .foter-link{
-    line-height: 1.5;
-    display: inline-block;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 16px;
+}
+
+.footer-linl{
+    display: inline-block;
     margin-bottom: 16px;
 }
