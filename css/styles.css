@@ -326,9 +326,6 @@ body{
     color: var(--white);
     background-color: var(--ocean);
     border: 1px solid transparent;
-    
-
-    
 }
 
 .active-filter{
@@ -374,10 +371,10 @@ li{
 }
 
 .list-portfolio{
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    row-gap: 24px;
     row-gap: 48px;
 }
 
