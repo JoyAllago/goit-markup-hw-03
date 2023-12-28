@@ -412,12 +412,12 @@ li{
     color: var(--cloud);
 } */
 
-.foter{
+.footer{
     background-color: var(--navy-blue);
     padding: 100px 0;
 }
 
-.foter-paragraph{
+.footer-paragraph{
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
@@ -437,3 +437,8 @@ li{
     display: inline-block;
     margin-bottom: 16px;
 }
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
