@@ -424,7 +424,9 @@ li{
 }
 
 .footer-link{
+  
     display: inline-block;
-    margin-bottom: 16px;
+ 
     max-width: 264px;
+    margin-bottom: 16px;
 }
