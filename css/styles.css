@@ -106,11 +106,10 @@ body{
 
 /* logo */
 
-.address-style{
+.contacts-style{
     font-style: normal;
     
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
 }
 
 .addrees-style:hover,
@@ -120,12 +119,11 @@ body{
 
 .contacts-color{
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.contacts-color:hover,
-.contacts-color:focus{
-    color: var(--ocean);
-}
+
 
 /* Section 1 */
 
@@ -234,6 +232,11 @@ body{
 .third-section{
     padding: 120px;
 }
+
+.third-headers-item{
+    width:  calc((100% - 48px) / 3);
+}
+
 
 .third-headers{
     font-size: 36px;
