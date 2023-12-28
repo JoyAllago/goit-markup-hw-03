@@ -338,9 +338,10 @@ li{
    gap: 40px;
 }
 
-/* .porfolio-link{
+.porfolio-link{
     text-decoration: none; 
-} */
+    width: calc((100%-48px)/3);
+}
 
 .portfolio-section{
     padding-top: 96px;
@@ -384,7 +385,7 @@ li{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    width: calc((100%-48px)/3)
+    
 }
 
 .list-child{
