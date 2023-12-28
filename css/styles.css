@@ -378,7 +378,7 @@ li{
     row-gap: 48px;
 }
 
-.portfolio-color{
+.list-portfolio-color{
     width: calc((100% - 48px) / 3);
 }
 
