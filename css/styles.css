@@ -412,12 +412,12 @@ li{
     color: var(--cloud);
 } */
 
-.footer{
+.foter{
     background-color: var(--navy-blue);
     padding: 100px 0;
 }
 
-.footer-paragraph{
+.foter-paragraph{
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
