@@ -62,9 +62,10 @@ body{
     display: flex;
 }
 
-.headercon{
+.container{
     display: flex;
     justify-content: space-between;
+    width: 1158px;
 }
 
 .header-list{
@@ -188,6 +189,7 @@ body{
 .filter-button:hover,
 .filter-button:focus{
     background-color: var(--ocean);
+    border: 1px solid transparent;
     
 }
  /* portfolio page button */
