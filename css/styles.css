@@ -55,13 +55,6 @@ body{
     border-bottom: 1px solid #e7e9fc;
 }
 
-.first-sec{
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
-    padding: 0 15px;
-}
 
 .headercon{
     display: flex;
@@ -339,7 +332,11 @@ body{
 
 /* Porfolio pages */
 
-
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 
 .active-filter{
@@ -393,7 +390,7 @@ li{
 }
 
 .list-portfolio-color{
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-color-con{
