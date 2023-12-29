@@ -440,12 +440,10 @@ li{
     letter-spacing: 0.02em;
     max-width: 264px;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
-.footerlink{
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 .footer-container {
     display: flex;
     justify-content: center;
